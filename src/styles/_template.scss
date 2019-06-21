@@ -1,0 +1,20 @@
+html, body, #___gatsby, #___gatsby > div {
+  height: 100%;
+  min-height: 100vh;
+}
+
+body {
+  background-color: theme-color('dark') !important;
+}
+
+#___gatsby {
+  background-color: theme-color('light');
+}
+
+.language-js {
+  font-size: 1rem !important;
+}
+
+.heading {
+  font-family: $headings-font-family;
+}
